@@ -1,15 +1,17 @@
 
 <script>
 import AppHeader from './components/AppHeader.vue';
+import AppMain from './components/AppMain.vue';
 
 export default {
   name: 'Comics',
-  components: { AppHeader }
+  components: { AppHeader, AppMain }
 };
 </script>
 
 <template>
   <AppHeader />
+  <AppMain />
 </template>
 
 <style>
@@ -35,6 +37,7 @@ a {
 body {
   min-height: 100vh;
   background-color: black;
+  color: white;
 }
 
 /* utils */
