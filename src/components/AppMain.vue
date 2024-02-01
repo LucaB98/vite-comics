@@ -16,5 +16,6 @@ export default {
 <style>
 #main {
     margin: 2rem;
+    height: 150px;
 }
 </style>

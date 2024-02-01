@@ -2,16 +2,20 @@
 <script>
 import AppHeader from './components/AppHeader.vue';
 import AppMain from './components/AppMain.vue';
+import AppFooterUp from './components/AppFooterUp.vue';
+import AppFooterDown from './components/AppFooterDown.vue';
 
 export default {
   name: 'Comics',
-  components: { AppHeader, AppMain }
+  components: { AppHeader, AppMain, AppFooterUp, AppFooterDown }
 };
 </script>
 
 <template>
   <AppHeader />
   <AppMain />
+  <AppFooterUp />
+  <AppFooterDown />
 </template>
 
 <style>
