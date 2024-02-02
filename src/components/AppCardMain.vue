@@ -1,7 +1,7 @@
 <script>
 export default {
     name: 'AppCardMain',
-    promp: {
+    props: {
         thumb: String,
         price: String,
         series: String,
@@ -13,20 +13,27 @@ export default {
 
 <template>
     <div class="cards">
-        <img :src="thumb" :alt="series">
+        <div class="thumb"><img :src="thumb" :alt="series"></div>
         <h3>{{ series }}</h3>
     </div>
 </template>
 
 <style scoped>
 .cards {
-    padding: 20px;
+    padding: 10px;
+}
+
+.thumb {
+    width: 160px;
+    height: 160px;
 }
 
 img {
     display: block;
-    max-width: 100%;
-    height: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
     margin: 10px 0;
 }
 </style>
