@@ -26,28 +26,38 @@ export default {
     </footer>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 #footer-down {
     background-color: #303030;
     height: 130px;
+
+    .container {
+        height: 100%;
+
+        .row {
+            justify-content: space-between;
+            align-items: center;
+            height: 100%;
+
+            .col {
+                height: 100%;
+            }
+        }
+    }
+
+
+}
+
+ul {
+    list-style-type: none;
+
+    li {
+        margin: 5px;
+    }
 }
 
 a {
     padding: 5px;
-}
-
-#footer-down .container {
-    height: 100%;
-}
-
-#footer-down .row {
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
-}
-
-#footer-down .row .col {
-    height: 100%;
 }
 
 .sing-up {
@@ -65,9 +75,9 @@ a {
 
 .social {
     align-items: center;
-}
 
-.social h2 {
-    color: #0C7CEC;
+    h2 {
+        color: #0C7CEC;
+    }
 }
 </style>

@@ -63,14 +63,14 @@ export default {
                     </nav>
                 </div>
                 <div class="col">
-                    <img src="../assets/img/dc-logo-bg.png" alt="logo-bg">
+                    <img class="logo" src="../assets/img/dc-logo-bg.png" alt="logo-bg">
                 </div>
             </div>
         </div>
     </footer>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 #footer-up {
     height: 400px;
     background-image: url(../assets/img/footer-bg.jpg);
@@ -97,11 +97,12 @@ export default {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: flex-start;
+
+    img {
+        background-size: 100% 100%;
+    }
 }
 
-.nav-footerup img {
-    background-size: 100% 100%;
-}
 
 section {
     margin: 30px 30px 0 0;
@@ -115,12 +116,12 @@ h4 {
 ul li {
     list-style-type: none;
     margin: 5px 0;
-}
 
-ul li a {
-    color: #959595;
-    font-size: 0.80rem;
-    padding: 0;
-    margin: 0;
+    a {
+        color: #959595;
+        font-size: 0.80rem;
+        padding: 0;
+        margin: 0;
+    }
 }
 </style>

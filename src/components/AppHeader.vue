@@ -75,7 +75,7 @@ export default {
     </header>
 </template>
 
-<style>
+<style lang="scss" scoped>
 #header {
     background-color: white;
 }
@@ -85,25 +85,25 @@ export default {
     justify-content: space-between;
     align-items: center;
 
+    img {
+        margin: 15px;
+        max-width: 80px;
+    }
 }
 
-.nav-header img {
-    margin: 15px;
-    max-width: 100px;
-}
+
 
 ul li {
     list-style-type: none;
-}
 
-ul li a {
-    padding: 10px;
-    margin: 5px;
+    a {
+        padding: 10px;
+        margin: 5px;
+    }
 
-}
+    .active &:hover {
+        color: #0C7CEC;
+    }
 
-ul li a .active,
-ul li a:hover {
-    color: #0C7CEC;
 }
 </style>
