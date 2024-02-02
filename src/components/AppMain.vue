@@ -1,21 +1,36 @@
 
 <script>
+import AppJumbo from './AppJumbo.vue';
+import AppCardMain from './AppCardMain.vue';
+
+
 export default {
     name: 'AppMain',
+    components: { AppJumbo, AppCardMain, AppCardMain },
+    props: {
+        comics: Array,
+    }
 };
 </script>
 
 <template>
     <main id="main">
-        <div class="container">
-            <h1>Contenuto main</h1>
+        <AppJumbo />
+        <div class="container card-container">
+            <AppCardMain v-for="comic in comics" :key="comic.id" v-bind="comic" />
         </div>
     </main>
 </template>
 
-<style>
-#main {
-    margin: 2rem;
-    height: 150px;
+<style scoped>
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.cards {
+    flex-basis: calc(100% / 6);
+
 }
 </style>

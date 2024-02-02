@@ -84,7 +84,7 @@ export default {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 1.5rem 0;
+
 }
 
 .nav-header img {
