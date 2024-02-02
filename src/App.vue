@@ -4,10 +4,11 @@ import AppHeader from './components/AppHeader.vue';
 import AppMain from './components/AppMain.vue';
 import AppFooterUp from './components/AppFooterUp.vue';
 import AppFooterDown from './components/AppFooterDown.vue';
+import AppBanner from './components/AppBanner.vue';
 
 export default {
   name: 'Comics',
-  components: { AppHeader, AppMain, AppFooterUp, AppFooterDown },
+  components: { AppHeader, AppMain, AppFooterUp, AppFooterDown, AppBanner },
   data: () => ({
     comics: [
       {
@@ -114,6 +115,7 @@ export default {
 <template>
   <AppHeader />
   <AppMain :comics="comics" />
+  <AppBanner />
   <AppFooterUp />
   <AppFooterDown />
 </template>
