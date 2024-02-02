@@ -104,7 +104,7 @@ export default {
 }
 
 section {
-    margin: 20px;
+    margin: 30px 30px 0 0;
 }
 
 h4 {

@@ -29,17 +29,21 @@ export default {
 <style scoped>
 #footer-down {
     background-color: #303030;
-    height: 150px;
+    height: 130px;
 }
 
 a {
     padding: 5px;
 }
 
+#footer-down .container {
+    height: 100%;
+}
+
 #footer-down .row {
     justify-content: space-between;
     align-items: center;
-    height: 150px;
+    height: 100%;
 }
 
 #footer-down .row .col {
