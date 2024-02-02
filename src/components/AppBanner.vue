@@ -14,19 +14,19 @@ export default {
                 </li>
                 <li>
                     <a href="#"><img src="../assets/img/buy-comics-merchandise.png" alt="merchandise"></a>
-                    <h5>DIGITAL COMICS</h5>
+                    <h5>DC MERCHANDISE</h5>
                 </li>
                 <li>
                     <a href="#"><img src="../assets/img/buy-comics-shop-locator.png" alt="shop-locator"></a>
-                    <h5>DIGITAL COMICS</h5>
+                    <h5>SUBSCRIPTIONS</h5>
                 </li>
                 <li>
                     <a href="#"><img src="../assets/img/buy-comics-subscriptions.png" alt="subscriptions"></a>
-                    <h5>DIGITAL COMICS</h5>
+                    <h5>COMIC SHOP LOCATOR</h5>
                 </li>
                 <li>
                     <a href="#"><img src="../assets/img/buy-dc-power-visa.svg" alt="visa"></a>
-                    <h5>DIGITAL COMICS</h5>
+                    <h5>DC POWER VISA</h5>
                 </li>
             </ul>
 
@@ -61,6 +61,7 @@ export default {
 
 h5 {
     font-weight: 100;
+    margin-left: 10px;
 }
 
 img {
