@@ -42,6 +42,7 @@ body {
   min-height: 100vh;
   background-color: black;
   color: white;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* utils */

@@ -114,12 +114,12 @@ h4 {
 
 ul li {
     list-style-type: none;
-    margin: 10px 0;
+    margin: 5px 0;
 }
 
 ul li a {
     color: #959595;
-    font-size: 0.85rem;
+    font-size: 0.80rem;
     padding: 0;
     margin: 0;
 }
