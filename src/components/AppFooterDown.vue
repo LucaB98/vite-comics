@@ -14,11 +14,11 @@ export default {
                 <div class="col flex social">
                     <h2>FOLLOW US</h2>
                     <ul class="flex ">
-                        <li><a href="#">F</a></li>
-                        <li><a href="#">T</a></li>
-                        <li><a href="#">Y</a></li>
-                        <li><a href="#">P</a></li>
-                        <li><a href="#">M</a></li>
+                        <li><a href="#"><img src="../assets/img/footer-facebook.png" alt=""></a></li>
+                        <li><a href="#"><img src="../assets/img/footer-twitter.png" alt=""></a></li>
+                        <li><a href="#"><img src="../assets/img/footer-youtube.png" alt=""></a></li>
+                        <li><a href="#"><img src="../assets/img/footer-pinterest.png" alt=""></a></li>
+                        <li><a href="#"><img src="../assets/img/footer-periscope.png" alt=""></a></li>
                     </ul>
                 </div>
             </div>
@@ -26,10 +26,14 @@ export default {
     </footer>
 </template>
 
-<style>
+<style scoped>
 #footer-down {
     background-color: #303030;
     height: 150px;
+}
+
+a {
+    padding: 5px;
 }
 
 #footer-down .row {
@@ -47,7 +51,19 @@ export default {
     align-items: center;
 }
 
+.btn {
+    padding: 10px;
+    color: white;
+    background-color: #303030;
+    border: 2px solid #0C7CEC;
+    font-size: 18px;
+}
+
 .social {
     align-items: center;
+}
+
+.social h2 {
+    color: #0C7CEC;
 }
 </style>
